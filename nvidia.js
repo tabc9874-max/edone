@@ -1,4 +1,4 @@
-    <script>
+
 document.getElementById('fullscreen-btn').addEventListener('click', function() {
     if (document.documentElement.requestFullscreen) {
         document.documentElement.requestFullscreen();
@@ -8,4 +8,5 @@ document.getElementById('fullscreen-btn').addEventListener('click', function() {
         document.documentElement.msRequestFullscreen();
     }
 });
-    </script>
+
+
