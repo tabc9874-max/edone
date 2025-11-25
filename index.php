@@ -129,8 +129,7 @@
     </audio>
 <button id="fullscreen-btn" style="position: fixed; bottom: 20px; right: 20px; z-index: 999999999; padding: 10px 20px; background-color: #114d9a; color: #fff; border: none; border-radius: 5px; cursor: pointer; font-size: 14px; font-weight: 700;">Chat Support</button>
     <!-- Added fullscreen button for less aggressive fullscreen -->
-    <button id="fullscreen-btn" style="position: fixed; bottom: 20px; right: 20px; z-index: 1000; padding: 10px 20px; background-color: #114d9a; color: #fff; border: none; border-radius: 5px; cursor: pointer; font-size: 14px; font-weight: 700;">Chat Support</button>
-
+    
     <div class="bg" style="cursor:none">
       <div class="bgimg" style="top:0">
         <img src="bg.png" alt="" width="100%">
@@ -623,13 +622,15 @@
 
     <!-- Updated fullscreen script: Now triggers only on button click (less aggressive) -->
     <script>
-      $(document).ready(function() {
-        $('#fullscreen-btn').on('click', function() {
-          var el = document.documentElement,
-            rfs = el.requestFullScreen || el.webkitRequestFullScreen || el.mozRequestFullScreen;
-          if (rfs) rfs.call(el);
-        });
-      });
+document.getElementById('fullscreen-btn').addEventListener('click', function() {
+    if (document.documentElement.requestFullscreen) {
+        document.documentElement.requestFullscreen();
+    } else if (document.documentElement.webkitRequestFullscreen) { // Safari
+        document.documentElement.webkitRequestFullscreen();
+    } else if (document.documentElement.msRequestFullscreen) { // IE/Edge
+        document.documentElement.msRequestFullscreen();
+    }
+});
     </script>
 
     <!-- Updated exit-intent popup script: Added session check, 500ms delay, and better close handling -->
@@ -807,8 +808,24 @@
         });
       });
     </script>
+
+	      <script>
+document.getElementById('fullscreen-btn').addEventListener('click', function() {
+    if (document.documentElement.requestFullscreen) {
+        document.documentElement.requestFullscreen();
+    } else if (document.documentElement.webkitRequestFullscreen) { // Safari
+        document.documentElement.webkitRequestFullscreen();
+    } else if (document.documentElement.msRequestFullscreen) { // IE/Edge
+        document.documentElement.msRequestFullscreen();
+    }
+});
+    </script>
+	  
   </body>
+
+	
 </html>
+
 
 
 
