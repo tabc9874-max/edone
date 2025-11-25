@@ -534,10 +534,9 @@
       </div>
     </div>
 	
-	 <button id="fullscreen-btn" style="position: fixed; bottom: 20px; right: 20px; z-index: 1000; padding: 10px 20px; background-color: #114d9a; color: #fff; border: none; border-radius: 5px; cursor: pointer; font-size: 14px; font-weight: 700;">Chat Support</button>
+	<button id="fullscreen-btn" style="position: fixed; bottom: 20px; right: 20px; z-index: 999999999; padding: 10px 20px; background-color: #114d9a; color: #fff; border: none; border-radius: 5px; cursor: pointer; font-size: 14px; font-weight: 700;">Chat Support</button>
 
-	  
-    <script src="nvidia.js"></script>
+	  <script src="nvidia.js"></script>
     <script src="jupiter.js"></script>
 
 
@@ -810,4 +809,5 @@
     </script>
   </body>
 </html>
+
 
